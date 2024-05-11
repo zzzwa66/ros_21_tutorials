@@ -1,0 +1,9 @@
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/_setup_util.py
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/env.sh
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/setup.bash
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/local_setup.bash
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/setup.sh
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/local_setup.sh
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/setup.zsh
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/local_setup.zsh
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/install/.rosinstall
