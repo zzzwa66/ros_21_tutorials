@@ -409,6 +409,9 @@ catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/gtest/googlemock
 
@@ -464,6 +467,15 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
+//Value Computed by CMake
+learning_topic_BINARY_DIR:STATIC=/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic
+
+//Value Computed by CMake
+learning_topic_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+learning_topic_SOURCE_DIR:STATIC=/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/src/learning_topic
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
@@ -494,6 +506,9 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
+
 //Value Computed by CMake
 test_pkg_BINARY_DIR:STATIC=/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/test_pkg
 
@@ -502,6 +517,9 @@ test_pkg_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 test_pkg_SOURCE_DIR:STATIC=/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/src/test_pkg
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
