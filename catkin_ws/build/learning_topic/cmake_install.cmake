@@ -61,3 +61,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/learning_topic" TYPE PROGRAM FILES "/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/catkin_generated/installspace/velocity_publisher.py")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/learning_topic" TYPE PROGRAM FILES "/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/catkin_generated/installspace/pose_subscriber.py")
+endif()
+

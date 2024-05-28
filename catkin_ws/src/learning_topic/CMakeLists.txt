@@ -155,6 +155,9 @@ include_directories(
 add_executable(velocity_publisher src/velocity_publisher.cpp)
 target_link_libraries(velocity_publisher ${catkin_LIBRARIES})
 
+add_executable(pose_subscriber src/pose_subscriber.cpp)
+target_link_libraries(pose_subscriber ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
@@ -166,6 +169,10 @@ target_link_libraries(velocity_publisher ${catkin_LIBRARIES})
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
   scripts/velocity_publisher.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+catkin_install_python(PROGRAMS
+  scripts/pose_subscriber.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

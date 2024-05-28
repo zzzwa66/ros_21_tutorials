@@ -691,6 +691,19 @@ velocity_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
 .PHONY : velocity_publisher/fast
 
+#=============================================================================
+# Target rules for targets named pose_subscriber
+
+# Build rule for target.
+pose_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pose_subscriber
+.PHONY : pose_subscriber
+
+# fast build rule for target.
+pose_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/build
+.PHONY : pose_subscriber/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -743,6 +756,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... pose_subscriber"
 	@echo "... velocity_publisher"
 .PHONY : help
 

@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/src/CMakeLists.txt"
   "/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/src/learning_topic/CMakeLists.txt"
   "/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/src/learning_topic/package.xml"
+  "/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/src/learning_topic/scripts/pose_subscriber.py"
   "/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/src/learning_topic/scripts/velocity_publisher.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
@@ -201,6 +202,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "learning_topic/catkin_generated/installspace/learning_topicConfig-version.cmake"
   "learning_topic/catkin_generated/stamps/learning_topic/velocity_publisher.py.stamp"
   "atomic_configure/velocity_publisher.py"
+  "learning_topic/catkin_generated/stamps/learning_topic/pose_subscriber.py.stamp"
+  "atomic_configure/pose_subscriber.py"
   "learning_topic/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -246,4 +249,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake"
   "learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/DependInfo.cmake"
   "learning_topic/CMakeFiles/velocity_publisher.dir/DependInfo.cmake"
+  "learning_topic/CMakeFiles/pose_subscriber.dir/DependInfo.cmake"
   )

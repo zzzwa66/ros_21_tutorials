@@ -66,6 +66,7 @@
 /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir
 /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir
 /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/CMakeFiles/velocity_publisher.dir
+/home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/CMakeFiles/pose_subscriber.dir
 /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/CMakeFiles/test.dir
 /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/CMakeFiles/edit_cache.dir
 /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build/learning_topic/CMakeFiles/rebuild_cache.dir

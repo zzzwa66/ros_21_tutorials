@@ -605,6 +605,44 @@ velocity_publisher/fast:
 	cd /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build && $(MAKE) $(MAKESILENT) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
 .PHONY : velocity_publisher/fast
 
+# Convenience name for target.
+learning_topic/CMakeFiles/pose_subscriber.dir/rule:
+	cd /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/pose_subscriber.dir/rule
+.PHONY : learning_topic/CMakeFiles/pose_subscriber.dir/rule
+
+# Convenience name for target.
+pose_subscriber: learning_topic/CMakeFiles/pose_subscriber.dir/rule
+.PHONY : pose_subscriber
+
+# fast build rule for target.
+pose_subscriber/fast:
+	cd /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build && $(MAKE) $(MAKESILENT) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/build
+.PHONY : pose_subscriber/fast
+
+src/pose_subscriber.o: src/pose_subscriber.cpp.o
+.PHONY : src/pose_subscriber.o
+
+# target to build an object file
+src/pose_subscriber.cpp.o:
+	cd /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build && $(MAKE) $(MAKESILENT) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o
+.PHONY : src/pose_subscriber.cpp.o
+
+src/pose_subscriber.i: src/pose_subscriber.cpp.i
+.PHONY : src/pose_subscriber.i
+
+# target to preprocess a source file
+src/pose_subscriber.cpp.i:
+	cd /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build && $(MAKE) $(MAKESILENT) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.i
+.PHONY : src/pose_subscriber.cpp.i
+
+src/pose_subscriber.s: src/pose_subscriber.cpp.s
+.PHONY : src/pose_subscriber.s
+
+# target to generate assembly for a file
+src/pose_subscriber.cpp.s:
+	cd /home/zzwa/zzwa_file/ros_21_tutorials/catkin_ws/build && $(MAKE) $(MAKESILENT) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.s
+.PHONY : src/pose_subscriber.cpp.s
+
 src/velocity_publisher.o: src/velocity_publisher.cpp.o
 .PHONY : src/velocity_publisher.o
 
@@ -672,7 +710,11 @@ help:
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_nodejs"
 	@echo "... turtlesim_generate_messages_py"
+	@echo "... pose_subscriber"
 	@echo "... velocity_publisher"
+	@echo "... src/pose_subscriber.o"
+	@echo "... src/pose_subscriber.i"
+	@echo "... src/pose_subscriber.s"
 	@echo "... src/velocity_publisher.o"
 	@echo "... src/velocity_publisher.i"
 	@echo "... src/velocity_publisher.s"
